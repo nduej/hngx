@@ -9,7 +9,7 @@ if (isset($_GET['slack_name']) && isset($_GET['track'])) {
     $slackName = $_GET['slack_name'];
     $track = $_GET['track'];
     // Get the GitHub URLs (replace with your actual URLs)
-    $githubFileURL = 'https://github.com/14326a/hndrepo/blob/main/api.php';
+    $githubFileURL = 'https://github.com/nduej/hngx/tree/main/Api';
     $githubSourceURL = 'https://github.com/nduej/hngx.git';
     // Set the timezone to UTC
     $utcDateTime = gmdate('Y-m-d\TH:i:s\Z');
